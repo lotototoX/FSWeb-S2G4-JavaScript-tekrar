@@ -41,7 +41,7 @@ function KareninAlani(kenaruzunlugu) {
 }
 
 /* (Oto test yok) Yukarıdaki KareninAlani fonksiyonunu kenar uzunluğu = 10 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
-console.log(KareninAlani(10))
+console.log('Karenin alanı: ' + KareninAlani(10))
 
 
 /* 	GÖREV 1:  
@@ -58,7 +58,7 @@ function CemberinCevresi(r) {
 }
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
-console.log(CemberinCevresi(5))
+console.log('Çemberin çevresi: ' + CemberinCevresi(5))
 
 
 
@@ -76,7 +76,7 @@ function CemberinAlani(r, pi) {
 
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
-console.log(CemberinAlani(15, pi))
+console.log('Çemberin alanı: ' + CemberinAlani(15, pi))
 
 
 /* 	GÖREV 3:
@@ -93,7 +93,7 @@ console.log(CemberinAlani(15, pi))
 
 
 /*  (oto test yok) sayilar dizisi içinde kaç adet sayı olduğunu konsola yazdırın */
-console.log(sayilar.length)
+console.log('Sayılar arrayinin uzunluğu: ' + sayilar.length)
 
 
 var ucetambolunenler,
